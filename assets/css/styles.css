@@ -7,6 +7,9 @@ html, body {
 #map {
   height: 100%; }
 
+.gameTitle {
+  font-style: italic; }
+
 .labels {
   color: white;
   font-size: 10px;
@@ -32,13 +35,13 @@ html, body {
     text-align: center; }
 
 .modal {
-  font-size: 6em;
+  font-size: 5em;
   text-align: center;
   padding-top: 50px;
   color: white; }
   @media (max-width: 500px) {
     .modal {
-      font-size: 4.5em;
+      font-size: 3.5em;
       line-height: 1.2;
       padding-top: 20px; } }
 
@@ -63,6 +66,9 @@ html, body {
 .targetFlagWell {
   width: 80px;
   margin-left: 10px; }
+  @media (max-width: 500px) {
+    .targetFlagWell {
+      width: 55px; } }
 
 .bonusCountryFlag {
   width: 10%; }
